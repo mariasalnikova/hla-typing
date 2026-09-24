@@ -1,4 +1,26 @@
-.Rproj.user
+# reference database (download with scripts/download_hla_db.R)
+db/
+
+# test data: sequencing data and typing results of real donors, local only
+data/
+tests/expected/
+
+# pipeline outputs
+results/
+*_stage1.rds
+*_stage1.json
+*_stage2.rds
+
+# R
 .Rhistory
 .RData
-.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# local documents that must not be published
+*.pdf
